@@ -7,7 +7,8 @@ import org.springframework.beans.factory.config.BeanDefinition;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class BeanDefinitionTest {
-    AnnotationConfigApplicationContext ac = new AnnotationConfigApplicationContext(AppConfig .class);
+//    AnnotationConfigApplicationContext ac = new AnnotationConfigApplicationContext("appConfig.xml");
+    AnnotationConfigApplicationContext ac = new AnnotationConfigApplicationContext(AppConfig.class);
 
 
     @Test
